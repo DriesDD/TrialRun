@@ -1,0 +1,11 @@
+body{font-family: 'Heebo', sans-serif; line-height: 1em}
+.reportwidget{display: block; width:272px;height:454px;margin:8px 6px; padding: 22px 24px; background-color: #388ded; color:white; font-size: 12px; font-weight: 500}
+.reportwidget > h1{font-size: 50px; font-weight: 300;}
+.cmnhead{width: 100%; font-weight:200px; color: #cddffa;  margin: 4px -5px;}
+.line1{border-bottom: 1px solid #5fa0f0; width: 100%}
+.left{text-align: left;}
+.right{text-align: right;}
+.graph{position: absolute ; top: 239px}
+.bar{width:8px; background:white; vertical-align: 100%; bottom: 20px; position: relative; vertical-align: bottom; top: 100%; transform: translateY(-50%); margin: 0px -1.5px}
+.links{position: relative; top: 130px; left: -4px; line-height: 2em}
+.links > tr > th {border-bottom: 1px solid #5FA0F0 } 
