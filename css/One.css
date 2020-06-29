@@ -1,0 +1,4 @@
+body{font-family: "ff-meta-web-pro","PT Sans","Lucida Grande","Lucida Sans","Lucida",Verdana,"Droid Sans",sans-serif;}
+div.grid-container{ display:grid;grid-template-rows: auto auto ;grid-template-columns: auto auto auto auto; grid-auto-flow: row; grid-gap:10px}
+img{display: block; max-width:160px; max-height:160px; margin-left: auto; margin-right: auto}
+div.grid-item{ max-width: 270px; padding: 25px}
