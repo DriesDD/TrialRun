@@ -1,20 +1,55 @@
-.card {display: grid;
-    grid-template-areas:
+.card {
+  display: grid;
+  grid-template-areas:
     'img summary summary summary'
     'img profile specs bookmark';
 
-    font-family: 'Ubuntu' 'Lucida Sans' 'Lucida Grande' 'Actor' 'Arial',  sans-serif;
-    width: 489px;
-    height: 259;
-    margin: 0px;
-    font-size: 14px;
-    line-height: 1.5em}
+  font-family: 'Ubuntu''Lucida Sans''Lucida Grande''Actor''Arial', sans-serif;
+  width: 489px;
+  height: 259;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.5em
+}
 
-.cardimg{grid-area: img}
-.cardsummary{grid-area: summary; padding: 20px}
-.cardprofile{grid-area: profile; padding: 20px 10px 20px 20px}
-.cardspecs{grid-area: specs; padding: 20px 0px; font-size: 10px; width: 150px; line-height: 0.5em}
-.cardbookmark{grid-area: bookmark; padding: 25px}
-h1{ font-weight:500; font-size: 18px; font-family: "lucida_grandebold";}
-h2{ font-weight:500; font-size: 12px}
-p{ color: #8F8F8F}
+.cardimg {
+  grid-area: img
+}
+
+.cardsummary {
+  grid-area: summary;
+  padding: 20px
+}
+
+.cardprofile {
+  grid-area: profile;
+  padding: 20px 10px 20px 20px
+}
+
+.cardspecs {
+  grid-area: specs;
+  padding: 20px 0px;
+  font-size: 10px;
+  width: 150px;
+  line-height: 0.5em
+}
+
+.cardbookmark {
+  grid-area: bookmark;
+  padding: 25px
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "lucida_grandebold";
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 12px
+}
+
+p {
+  color: #8F8F8F
+}
