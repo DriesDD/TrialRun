@@ -1,0 +1,18 @@
+.card {display: grid;
+    grid-template-areas:
+    'img summary summary summary'
+    'img profile specs bookmark';
+
+    font-family: 'Work Sans', sans-serif;
+    width: 489px;
+    height: 259;
+    margin: 0px;
+    font-size: 12px}
+
+.cardimg{grid-area: img}
+.cardsummary{grid-area: summary; padding: 20px}
+.cardprofile{grid-area: profile; padding: 20px 10px 20px 20px}
+.cardspecs{grid-area: specs; padding: 20px 0px; font-size: 10px}
+.cardbookmark{grid-area: bookmark; padding: 25px}
+h1{ font-weight:600; font-size: 16px}
+h2{ font-weight:500; font-size: 10px}
