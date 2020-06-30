@@ -1,24 +1,9 @@
-@font-face {
-    font-family: 'lucida_grandebold';
-    src: url('911fonts.com_lucidagrandebold__-_911fonts.com_fonts_3l6h-webfont.woff2') format('woff2'),
-         url('911fonts.com_lucidagrandebold__-_911fonts.com_fonts_3l6h-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'lucida_granderegular';
-    src: url('911fonts.com_lucidagranderegular__-_911fonts.com_fonts_ynwe-webfont.woff2') format('woff2'),
-         url('911fonts.com_lucidagranderegular__-_911fonts.com_fonts_ynwe-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .card {display: grid;
     grid-template-areas:
     'img summary summary summary'
     'img profile specs bookmark';
 
-    font-family: "lucida_granderegular";
+    font-family: 'Ubuntu', sans-serif;
     width: 489px;
     height: 259;
     margin: 0px;
@@ -30,5 +15,6 @@
 .cardprofile{grid-area: profile; padding: 20px 10px 20px 20px}
 .cardspecs{grid-area: specs; padding: 20px 0px; font-size: 10px; width: 150px; line-height: 0.5em}
 .cardbookmark{grid-area: bookmark; padding: 25px}
-h1{ font-weight:600; font-size: 18px; font-family: "lucida_grandebold";}
+h1{ font-weight:500; font-size: 18px; font-family: "lucida_grandebold";}
 h2{ font-weight:500; font-size: 12px}
+p{ color: #8F8F8F}
